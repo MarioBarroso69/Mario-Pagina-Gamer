@@ -1,0 +1,36 @@
+body {
+  background-image: url("https://mcdn.wallpapersafari.com/medium/18/15/0j8cMm.jpeg");
+  background-size: auto 120vh;
+  font-family: Arial;
+  height: 100vh;
+}
+
+.menu {
+  background-color: rgb(41, 39, 39);
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+ list-style: none; 
+}
+a {
+  color: rgb(238, 11, 11);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+  color: rgba(228, 9, 9, 0.548);
+  text-align: center;
+}
+
+.site-subtitle {
+  font-style: italic;
+}
